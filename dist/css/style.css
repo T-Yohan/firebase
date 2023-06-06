@@ -34,7 +34,7 @@ section{
 }
 
 .heading span{
-  color: var(--pink);
+  color:var(--pink);
 }
 
 
@@ -72,7 +72,7 @@ header .logo{
 }
 
 header .logo span{
-color: var(--pink);
+color:var(--pink);
 }
 
 header .navbar a{
@@ -83,7 +83,7 @@ header .navbar a{
 
 
 header .navbar a:hover{
-  color: var(--pink);
+  color:var(--pink);
 }
 
 
@@ -94,7 +94,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-  color: var(--pink);
+  color:var(--pink);
 }
 
 header #toggler{
@@ -115,7 +115,7 @@ header .fa-bars{
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background: url(../images/téléchargement\ \(3\).jpg) no-repeat;
+  background: url(../images/images.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -131,7 +131,7 @@ header .fa-bars{
 
 .home .content span{
   font-size: 3.5rem;
-  color: var(--pink);
+  color:var(--pink);
   padding: 1rem 0;
   line-height: 1.5;
 }
@@ -314,7 +314,7 @@ header .navbar a{
   top: 1rem; left: 1rem;
   padding:.7rem 1rem;
   font-size: 2rem;
-  color: var(--pink);
+  color:var(--pink);
   background: rgba(255 , 51, 153, .05);
   z-index: 1; 
 }
@@ -348,7 +348,7 @@ header .navbar a{
   line-height: 5rem;
   font-size: 2rem;
   width: 50%;
-  background: var(--pink);
+  background:var(--pink);
   color: #fff;
 }
 
@@ -373,7 +373,7 @@ header .navbar a{
 
 .products .box-container .box .content .price{
   font-size: 2.5rem;
-  color: var(--pink);
+  color:var(--pink);
   font-weight: bolder;
   padding-top: 1rem;
 }
@@ -408,7 +408,7 @@ header .navbar a{
 
 
 .review .box .container .box .stars i{
-  color: var(--pink);
+  color:var(--pink);
   font-size: 2rem;
 }
 
@@ -423,6 +423,117 @@ header .navbar a{
   align-items: center;
   padding-top: 2rem;
 }
+
+.review .box .container .box .user img{
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.review .box .container .box .user h3{
+  font-size: 2rem;
+  color: #333;
+}
+
+.review .box .container .box .user span{
+  font-size: 1.5rem;
+  color: #999;
+}
+
+.contact .row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contact .row form{
+  flex: 1 1 40rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  border: .1rem solid rgba(0, 0, 0, .1);
+  background: #fff;
+  border-radius: .5rem;
+}
+
+.contact .row .image{
+  flex: 1 1 40rem;
+}
+
+.contact .row .image img{
+  width: 100%;
+}
+
+.contact .row form .box{
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: #333;
+  text-transform: none;
+  border: .1rem solid rgba(0, 0, 0, .1);
+  border-radius: .5rem;
+  margin: .7rem 0;
+  width: 100%;
+}
+
+.contact .row form .box:focus{
+  border-color:var(--pink);
+}
+
+.contact .row form textarea{
+  height: 15rem;
+  resize: none;
+}
+
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer .box-container .box{
+  flex: 1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  color: #333;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+
+.footer .box-container .box a{
+  display: block;
+  color: #666;
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a:hover{
+  color:var(--pink);
+  text-decoration: underline;
+}
+
+.footer .box-container .box img{
+  margin-top: 1rem;
+}
+
+.footer .credit{
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  color: #333;
+  border-top: .1rem solid rgba(0, 0, 0, .1);
+}
+
+.footer .credit span{
+  color:var(--pink);
+}
+
 
 
 
